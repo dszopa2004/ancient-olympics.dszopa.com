@@ -12,6 +12,11 @@ h2 {
 }
 
 .pgraphs {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 2, 1fr;
