@@ -49,6 +49,10 @@ img {
     padding: 10px;
 }
 
+.citation {
+    font-size: 14px;
+}
+
 p {
     font-size: 18px;
     text-align: justify;
