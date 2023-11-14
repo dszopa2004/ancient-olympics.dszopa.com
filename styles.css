@@ -7,14 +7,26 @@ h2 {
     text-align: center;
 }
 
-div {
+.pgraphs {
     margin-left: 25%;
     margin-right: 25%;
 }
 
+img {
+    width: 45%;
+    border-radius: 10px;
+    border-color: black;
+    margin-left: 1%;
+}
+
+.images {
+    float: right;
+    padding-left: 10px;
+}
+
 p {
     font-size: 18px;
-    text-align: left;
+    text-align: justify;
     line-height: 2;
     text-indent: 65px;
 }
