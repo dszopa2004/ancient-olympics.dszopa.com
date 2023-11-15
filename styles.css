@@ -11,6 +11,10 @@ h2 {
     text-align: center;
 }
 
+footer {
+    background-color: white;
+}
+
 .pgraphs {
     margin-left: 20%;
     margin-right: 20%;
