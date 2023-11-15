@@ -18,7 +18,7 @@ h2 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 2, 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 0px;
@@ -28,12 +28,12 @@ h2 {
 
 .event-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 3, 1fr;
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    grid-row-gap: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 img {
@@ -79,14 +79,20 @@ p {
 
 }
 
-.events1 { grid-area: 1 / 1 / 2 / 4; }
-.events2 { grid-area: 2 / 2 / 3 / 5; }
-.events3 { grid-area: 3 / 2 / 4 / 5; }
+.events1 { grid-area: 1 / 1 / 2 / 7; }
+.events2 { grid-area: 2 / 3 / 3 / 7; }
+.events3 { grid-area: 3 / 3 / 4 / 7; }
 .events4 { 
-    grid-area: 1 / 4 / 2 / 6; 
+    grid-area: 1 / 7 / 2 / 9;
     padding: 10px;
 }
-.events5 { grid-area: 2 / 1 / 3 / 2; }
-.events6 { grid-area: 2 / 5 / 3 / 6; }
-.events7 { grid-area: 3 / 1 / 4 / 2; }
-.events8 { grid-area: 3 / 5 / 4 / 6; }
+.events5 { 
+    grid-area:  2 / 1 / 3 / 3;
+    margin-top: 5%;
+}
+.events6 { 
+    grid-area: 2 / 7 / 3 / 9; 
+    margin-top: 5%;
+}
+.events7 { grid-area: 3 / 1 / 4 / 3; }
+.events8 { grid-area: 3 / 7 / 4 / 9; }
