@@ -11,7 +11,6 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 0;
-    
     padding-bottom: 10px;
     margin-left: 15%;
     margin-right: 15%;
@@ -76,6 +75,7 @@ button:active {
 }
 
 .grid {
+    background-color: rgb(204, 26, 26);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 2, 1fr;
@@ -86,6 +86,7 @@ button:active {
 }
 
 .event-grid {
+    background-color: rgb(204, 26, 26);
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 3, 1fr;
