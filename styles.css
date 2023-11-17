@@ -76,6 +76,7 @@ button:active {
 }
 
 .grid {
+    padding: 10px;
     background-color: #CDD2D6;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -85,6 +86,7 @@ button:active {
 }
 
 .event-grid {
+    padding: 15px;
     background-color: #CDD2D6;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
