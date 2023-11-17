@@ -108,5 +108,11 @@ p {
 .diets1 { grid-area: 1 / 1 / 2 / 9; }
 .diets2 { grid-area: 2 / 3 / 3 / 7; }
 .diets3 { grid-area: 3 / 1 / 4 / 9; }
-.diets4 { grid-area: 2 / 1 / 3 / 3; }
-.diets5 { grid-area: 2 / 7 / 3 / 9; }
+.diets4 { 
+    grid-area: 2 / 1 / 3 / 3;
+    margin-top: 15%;
+}
+.diets5 { 
+    grid-area: 2 / 7 / 3 / 9;
+    margin-top: 15%;
+}
