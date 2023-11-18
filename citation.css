@@ -80,3 +80,16 @@ p {
 .pgraphs {
     background-color: #CDD2D6;
 }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+
+.prev { grid-area: 1 / 1 / 2 / 2; }
+.about-me { grid-area: 1 / 2 / 2 / 3; }
+.next { grid-area: 1 / 3 / 2 / 4; }
