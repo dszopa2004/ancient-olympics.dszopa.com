@@ -84,6 +84,7 @@ p {
 
 .grid {
     padding: 10px;
+    margin-bottom: 1.5%;
     background-color: #CDD2D6;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -94,6 +95,7 @@ p {
 
 .event-grid {
     padding: 15px;
+    margin-bottom: 1.5%;
     background-color: #CDD2D6;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -195,12 +197,6 @@ img {
 .conc4 { grid-area: 1 / 5 / 2 / 6; }
 .conc5 { grid-area: 3 / 1 / 4 / 2; }
 
-.prev { 
-    grid-area: 1 / 1 / 2 / 2; 
-}
-.about-me { 
-    grid-area: 1 / 2 / 2 / 3; 
-}
-.next { 
-    grid-area: 1 / 3 / 2 / 4; 
-}
+.prev { grid-area: 1 / 1 / 2 / 2; }
+.about-me { grid-area: 1 / 2 / 2 / 3; }
+.next { grid-area: 1 / 3 / 2 / 4; }
